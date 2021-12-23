@@ -1,0 +1,28 @@
+{
+  "name": "redis-node-cache",
+  "version": "1.0.0",
+  "description": "caching using redis",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albert-Osei/redis-node-cache.git"
+  },
+  "author": "albert0711",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albert-Osei/redis-node-cache/issues"
+  },
+  "homepage": "https://github.com/Albert-Osei/redis-node-cache#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^3.1.0",
+    "redis": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
